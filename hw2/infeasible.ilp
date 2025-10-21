@@ -1,0 +1,12 @@
+\ Model Problem2_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+\ Signature: 0x1fc7b21e380e7561
+Maximize
+ 
+Subject To
+ conflict: x3 + x6 <= 0
+ eq3: x3 + x6 = 1
+Bounds
+ x3 free
+ x6 free
+End
